@@ -1,0 +1,94 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <script>
+        jQuery(window).load(function(){
+            jQuery(".hameid-loader-overlay").fadeOut(500);
+        });
+    </script>
+
+</head>
+<body>
+
+<div class="hameid-loader-overlay">
+<img class="preloaderimage" src="images/logo.png"></div>
+    
+
+<div class="container outercontainer">
+	<h1>Sign Up</h1>
+	<h6 class="twopad">Please Enter the following details:</h6>
+
+	<form>
+		<!-- <div class="form-group twopadbottom">
+			<label class="formlabel" for="inputempid">Employee ID</label>
+    		<input type="text" class="form-control" id="inputempid" placeholder="Enter Employee ID">
+		</div>
+ -->
+		<div class="form-group twopadbottom">
+			<label class="formlabel" for="inputname">Name</label>
+    		<input type="text" class="form-control" id="inputname" placeholder="Enter name">
+		</div>	
+
+		<div class="form-group twopadbottom">
+			<label class="formlabel" for="inputdept">Department</label>
+    		<input type="text" class="form-control" id="inputdept" placeholder="Enter Department">
+		</div>	
+
+		<div class="form-group twopadbottom">
+			<label class="formlabel" for="inputetpid">Enterprise ID</label>
+    		<input type="text" class="form-control" id="inputetpid" placeholder="Enter Enterprise ID">
+		</div>	
+
+	<!-- 	<div class="form-group twopadbottom">
+			<label class="formlabel" for="inputdept">Department</label>
+    		<input type="text" class="form-control" id="inputdept" placeholder="Enter Department">
+		</div>	 -->
+
+		<div class="form-group twopadbottom">
+			<label class="formlabel" for="inputpass">Password:</label>
+    		<input type="password" class="form-control" id="inputpass" placeholder="Enter Passowrd">
+		</div>
+
+		<div class="form-group twopadbottom">
+			<label class="formlabel" for="inputpass2">Re-enter Password:</label>
+    		<input type="password" class="form-control" id="inputpass2" placeholder="Re-enter Password">
+    		<span id='message'></span>
+		</div>
+
+		<div class="form-group twopadbottom">
+			<label class="formlabel" for="inputcreateddate">Created Date</label>
+			<div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+   	 			<input class="form-control" type="text" readonly />
+    			<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+			</div>
+		</div>
+
+		<div class="form-group twopadbottom">
+			<label class="formlabel" for="inputcreateddate">Modified Date</label>
+			<div id="datepicker2" class="input-group date" data-date-format="mm-dd-yyyy">
+   	 			<input class="form-control" type="text" readonly />
+    			<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+			</div>
+		</div>
+
+		 <button type="submit" class="btn btn-primary">Submit</button>
+
+	</form>	
+
+</div>	
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js'></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
